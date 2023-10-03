@@ -1,10 +1,28 @@
 #!/bin/bash
 
 # List of file names you want to create with the shebang line
-file_names=("2-hellofile" "3-twofiles" "4-lastlines" "5-firstlines" "6-third_line" "7-file" "8-cwd_state" "9-duplicate_last_line" "10-no_more_js" "11-directories" "12-newest_files" "13-unique" "14-findthatword" "15-countthatword" "16-whatsnext" "17-hidethisword" "18-letteronly" "19-AZ" "20-hiago" "21-reverse" "22-users_and_homes" "100-empty_casks" "101-gifs" "102-acrostic" "103-the_biggest_fan")
+file_names=(
+    "1-hello_you"
+    "2-path"
+    "3-paths"
+    "4-global_variables"
+    "5-local_variables"
+    "6-create_local_variable"
+    "7-create_global_variable"
+    "8-true_knowledge"
+    "9-divide_and_rule"
+    "10-love_exponent_breath"
+    "11-binary_to_decimal"
+    "12-combinations"
+    "13-print_float"
+    "100-decimal_to_hexadecimal"
+    "101-rot13"
+    "102-odd"
+    "103-water_and_stir"
+)
 
 # Loop through the file names and create each file with the shebang line
 for file_name in "${file_names[@]}"; do
     echo '#!/bin/bash' > "$file_name"
 done
-chmod +x ~/alx-system_engineering-devops/0x02-shell_redirections/*
+chmod +x ~/alx-system_engineering-devops/0x03-shell_variables_expansions/*
