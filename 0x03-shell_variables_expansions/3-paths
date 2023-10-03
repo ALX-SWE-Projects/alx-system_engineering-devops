@@ -1,1 +1,2 @@
 #!/bin/bash
+cho :$PATH | grep -o ":/" |wc -l
