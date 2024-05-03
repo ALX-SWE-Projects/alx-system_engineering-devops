@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 # Fix Nginx installation from listening on port 80
 
-sudo service nginx start
+cd /etc/nginx/sites-enabled/ || exit;
+
+rm default;
+
+ln -s /etc/nginx/sites-available/default default
+
+service nginx restart
