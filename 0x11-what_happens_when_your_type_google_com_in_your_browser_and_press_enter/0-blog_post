@@ -1,0 +1,29 @@
+What happens when you type google.com in your browser and press Enter
+
+The process of navigating the web seems effortless. But behind every click lies a fascinating journey of digital communication and protocol magic. Let's take a peek under the hood and unravel the secrets of what happens when you type "https://www.google.com" into your browser and hit Enter.
+
+DNS Request:
+Your browser sends out a request to find the numerical address corresponding to the human-friendly "www.google.com." Think of it as asking for directions to a destination in a foreign land.
+
+TCP/IP:
+With the destination address in hand, your browser establishes a reliable connection using TCP, ensuring that your data arrives safely at its destination, like a trusty postal service.
+
+Firewall:
+Before your data can enter the website's domain, it may encounter a firewall, acting as a vigilant guard, inspecting each packet to ensure it's not carrying any malicious cargo.
+
+HTTPS/SSL:
+As your browser and the server engage in a secret handshake, they exchange cryptographic keys, ensuring that your communication remains encrypted and secure, akin to passing notes in a locked box.
+
+Load-Balancer:
+For popular destinations like Google, a load balancer steps in, distributing the incoming traffic across multiple servers, like a traffic conductor ensuring each lane flows smoothly.
+
+Web Server:
+Your request finally reaches a web server, which diligently fetches the necessary files, like HTML, CSS, and JavaScript, to assemble the webpage you desire, acting as a diligent librarian fetching books from the shelves.
+
+Application Server:
+In the case of dynamic content, an application server may come into play, executing code, accessing databases, and performing various tasks to tailor the response to your needs, like a personal assistant fetching information from a vast database.
+
+Database:
+For websites reliant on data storage and retrieval, the application server interacts with a database, fetching and updating information as needed, similar to a librarian retrieving books from the archives.
+
+In essence, the journey from URL to response is a choreographed dance of technologies and protocols, each playing its crucial role in delivering the seamless web experience we've come to expect. Understanding this process not only enriches our appreciation for the marvels of modern technology but also empowers us to navigate the digital landscape with confidence and curiosity.
